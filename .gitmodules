@@ -1,0 +1,3 @@
+[submodule "themes/Pelican-RTL-theme"]
+	path = themes/Pelican-RTL-theme
+	url = https://github.com/ziaa/Pelican-RTL-theme.git
