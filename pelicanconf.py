@@ -14,7 +14,9 @@ BLOG_BASE_PATH = os.path.dirname(SCRIPT_PATH)
 TIMEZONE = 'Asia/Tehran'
 
 DEFAULT_LANG = 'fa'
-
+DATE_FORMATS = {
+    'fa': '%A %d %B %Y'
+}
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -40,3 +42,7 @@ DEFAULT_PAGINATION = 5
 # Set the theme
 THEMES_PATH = os.path.join(BLOG_BASE_PATH, 'themes/')
 THEME = os.path.join(THEMES_PATH, 'Pelican-RTL-theme/')
+
+# Plugins
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["pelican_persian_date"]

@@ -1,3 +1,6 @@
 [submodule "themes/Pelican-RTL-theme"]
 	path = themes/Pelican-RTL-theme
 	url = https://github.com/ziaa/Pelican-RTL-theme.git
+[submodule "plugins/pelican_persian_date"]
+	path = plugins/pelican_persian_date
+	url = https://github.com/ziaa/pelican_persian_date
