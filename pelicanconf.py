@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = 'Ziaa'
-SITENAME = 'Pelican Persian blog starting point'
+SITENAME = 'یک وبلاگ آزمایشی'
 SITEURL = ''
 
 PATH = 'content'
